@@ -1,5 +1,5 @@
 import Navigation from 'components/Navigation/Navigation';
-import s from './App.module.css';
+import s from './Appbar.module.css';
 
 const AppBar = () => {
   return (
