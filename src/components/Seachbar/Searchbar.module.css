@@ -1,0 +1,41 @@
+.form__thumb {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  position: relative;
+}
+
+.form__input {
+  height: 40px;
+  min-width: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 70px;
+  border: none;
+  outline: none;
+}
+
+.button {
+  display: inline-block;
+  width: 80px;
+  height: 100%;
+  margin: 0;
+  outline: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 0;
+  padding: 0;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: orange;
+  transform: scale(1.1);
+  transition: 0.5s;
+  transition-delay: 0.1s;
+  box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08),
+    0 2px 2px rgba(0, 0, 0, 0.12);
+}
